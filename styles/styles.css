@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list{
+    justify-content: center;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.searchbox{
+    border: 1px solid black;
+    width: 60%;
+    height: 70px;
+    border-radius: 5ch;
+    display: flex;
+    padding-left: 5px;
+    margin-left: 20%;
+
+}
+
+.searchbox button{
+    width: 20%;
+    height: 100%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+    border: none;
+    display: block;
+    border-radius: 2ch;
+    align-items: center;
+    background: transparent;
+}
+
+
+.searchbox button:hover{
+    background-color: rgb(170, 83, 83);
+    cursor: pointer;
+}
+
+.searchbox button i{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+img{
+    width: 25px;
+    color: red;
+}
+
+.placeholder{ 
+    width: 100px;
+}
+
+.Scrollmenu{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: #b6a9a9; */
+    overflow: auto;
+    white-space: nowrap;
+    padding: 2%;
+}
+
+.Scrollmenu ul li active {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    text-decoration:underline;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.Scrollmenu a{
+    margin: 10px;
+    column-gap: 50px;
+}
+
+.Scrollmenu a :hover{
+    cursor: pointer;
+}
+
+.cards{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
