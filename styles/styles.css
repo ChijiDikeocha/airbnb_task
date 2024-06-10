@@ -117,18 +117,23 @@ img{
 }
 
 .Card-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
-    height: 100px;
+    height: 1200px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2%;
+    /* background-color: aqua; */
 }
 
 .card{
     width: 25%;
     border-radius: 8px;
+}
+
+.Card:hover{
+    cursor: pointer;
 }
 
 .card img{
@@ -140,8 +145,43 @@ img{
     text-align: center;
 }
 
-.footer{
-    border: 1px solid black;
+h2{
+    margin-left: 2%;
+}
+
+.Past-Experience{
+    /* border: 1px solid black; */
     width: 100%;
-    height: 100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    /* background-color: brown; */
+}
+
+.Card2{
+    width: 25%;
+    border-radius: 8px;
+}
+
+.Card2 :hover{
+    cursor: pointer;
+}
+
+.Card2 img{
+    width: 80%;
+    height: auto;
+}
+
+
+.Card2 {
+    text-align: center;
+}
+
+.footer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80px;
+    background-color: red;
 }
