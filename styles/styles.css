@@ -210,6 +210,9 @@ h2{
     .container{
         width: 80%;
     }
+    .nav{
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 601px) {
